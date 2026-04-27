@@ -8,3 +8,4 @@ the bug was that the result was getting set as a string concatenation instead of
 
 converted the inputs to numbers before adding them. used `Number()`  on num1 and num2 before doing the addition. so something like `Number(num1) + Number(num2)`.
 
+![Fix applied with Number() conversion](../../expand/screenshots/fix.png)
